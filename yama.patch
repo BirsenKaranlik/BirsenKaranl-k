@@ -1,0 +1,12 @@
+diff -Nuar open-vim.orig/js/tutorial/sections.js open-vim/js/tutorial/sections.js
+--- open-vim.orig/js/tutorial/sections.js	2012-12-10 11:03:04.417450035 +0200
++++ open-vim/js/tutorial/sections.js	2012-12-10 11:48:16.608091167 +0200
+@@ -408,7 +408,7 @@
+       "<> A smart girl",
+       "<> Ulysses",
+       "<> Learn and teach",
+-      "Make a change to how the list looks like. Press |ctrl-v| to go into visual block mode. Select text area moving vertically, and with |I| prepend to the selected area. |Esc| completes the insertion."
++      "make a change to how the list looks like. Press |ctrl-v| to go into visual block mode. Select text area moving vertically, and with |I| prepend to the selected area. |Esc| completes the insertion."
+     ],
+     function() {
+       interpreter.environment.setCommandMode();
